@@ -1,0 +1,52 @@
+.game{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.computerChoice, .userChoice {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+}
+
+
+@media (max-width:500px){
+    .game{
+        grid-template-columns: 1fr;
+    }
+    .computerChoice, .userChoice {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+h1{
+    text-align: center;
+}
+
+.btn-carry{
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+}
+
+button{
+    height: 4em;
+    width: 4em;
+    border-radius: 10%;
+    border: 2px solid grey;
+}
+
+#rock{
+    background-image: url(img/rock.png);
+    background-size: contain;
+}
+#paper{
+    background-image: url(img/paper.png);
+    background-size: contain;
+}
+#scissor{
+    background-image: url(img/scissor.png);
+    background-size: contain;
+}

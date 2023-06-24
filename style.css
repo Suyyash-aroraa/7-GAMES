@@ -1,0 +1,9 @@
+.nav-img {
+    width: 24px;
+    filter: invert();
+}
+
+.card-game{
+    width: 1em;
+    height: 1em;
+}
