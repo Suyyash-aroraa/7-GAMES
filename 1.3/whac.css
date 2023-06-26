@@ -1,0 +1,36 @@
+.game{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    width: 500px;
+    height: 500px;
+    padding-bottom: 60px;
+}
+.row{
+    justify-content: center;
+    align-items: center;
+}
+.square{
+    width: 99px;
+    height: 99px;
+    border:1px black solid;
+
+}
+
+.mole{
+    background-image: url('https://cdn.pixabay.com/photo/2022/12/14/21/39/mole-7656331_1280.png');
+    background-size: cover;
+    border: 1px solid;
+}
+
+@media (max-width:550px) {
+    .game{
+        width: 300px;
+        height: 300px;
+        padding-bottom: 350px;
+    }
+    .square{
+        width: 59px;
+        height: 59px;
+    }
+}
