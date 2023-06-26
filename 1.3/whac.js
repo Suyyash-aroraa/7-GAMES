@@ -46,7 +46,7 @@ function moveMole(){
 }
 moveMole()
 
-let currentTime = 3
+let currentTime = 60
 timeLeft.textContent = currentTime
 let countDownClass = setInterval(countDown, 1000)
 function countDown(){
