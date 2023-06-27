@@ -25,20 +25,22 @@ if(screen500.matches){
     for (let j = 270; j>150; j -=30){
         for (let i = 10; i<300; i+=60){
             blocks.push(new Block(i, j))
-            
+            var userStart = [130,20]
+            var ballStart = [150,40]
         }
     }
-    var userStart = [130,20]
+    
 
 }
 else if (screen700.matches){
     for (let j = 270; j>150; j -=30){
         for (let i = 10; i<360; i+=75){
             blocks.push(new Block(i, j))
-            
+            var userStart = [170,20]
+            var ballStart = [200,40]
         }
     }
-    var userStart = [170,20]
+    
 }
 
 else{
